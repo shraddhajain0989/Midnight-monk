@@ -5,10 +5,7 @@ load_dotenv()
 
 class Config:
     # ✅ MongoDB Atlas
-    MONGO_URI = os.getenv(
-        "MONGO_URI",
-        "mongodb+srv://Saikumar0319:Saikumar0319@midnightmonk.w63vctf.mongodb.net/?appName=midnightmonk"
-    )
+    MONGO_URI = os.getenv("MONGO_URI")
     DATABASE_NAME = os.getenv("DATABASE_NAME", "midnight_monk")
 
     # ✅ JWT Secret
