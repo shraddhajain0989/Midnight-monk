@@ -3,9 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Midnight-monk/',   // ⭐ ADD THIS LINE
-  server: {
-    host: true,
-    port: 5173,
-  }
+  base: '/Midnight-monk/',   // ⭐ MUST HAVE
 })
